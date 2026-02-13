@@ -84,5 +84,5 @@ elif st.session_state["authentication_status"] is False:
     st.error("L'username ou le password est/sont incorrect")
 
 elif st.session_state["authentication_status"] is None:
-    st.info('Les champs username et mot de passe doivent être remplie')
+    st.info('Les champs username et mot de passe doivent être remplie. Le username/mdp est utilisateur@gmail.com/utilisateurMDP')
     
